@@ -4,7 +4,7 @@ gem 'activerecord', '4.2.5', :require => 'active_record'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'sqlite3', '~>1.3.6'
 gem 'sinatra'
-gem 'thin'
+gem 'thin', git: "https://github.com/macournoyer/thin.git"
 gem 'shotgun'
 gem 'tux'
 gem 'pry'
